@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-image: url("../images/BG.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+select, textarea {
+    width: 80%;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* ✅ Hashtag Styling */
+.hashtag-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hashtag {
+    display: inline-block;
+    background-color: #1da1f2; /* Twitter Blue */
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hashtag:hover {
+    background-color: #0d8ddd;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding-top: 50px;
+    }
+
+    select, textarea {
+        width: 90%;
+    }
+}
